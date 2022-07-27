@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    background-color: #CDC2AE;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+   
+}
+.navbar-nav{
+    display: flex;
+}
+.nav a{
+    color: black;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+margin-top: 4%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: #F1F1F1;
+   padding: 5%;
+   border-radius:50px
+   
+}
+#quote{
+    font-size: 2.5rem;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.quote{
+    background-color: white;
+    padding: 5%;
+    border-radius:50px;
+    margin-right: 5%;
+}
+.container a img{
+    width: 100%;
+    border-radius:50px
+}
+.container a{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+h1{
+    font-family: 'Dosis', sans-serif;
+}
