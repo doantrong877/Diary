@@ -16,6 +16,11 @@ def home():
 def register():
     return render_template('register.html')
 
+#load admin home page
+@app.route('/admin')
+def admin():
+    return render_template('homeadmin.html')
+
 #register route
 @app.route('/registerform', methods=['POST'])
 def registerform():

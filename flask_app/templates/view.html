@@ -47,7 +47,7 @@
             </div>
       </nav>
      
-      <h1 class="date">{{post.created_at}}</h1>
+      <h1 class="date">{{post.created_at.strftime('%Y-%m-%d')}}</h1>
       <div class="display">
    
       <div class="highlight">  <h3>Highlight</h3>{{post.highlight}}</div>
