@@ -49,7 +49,6 @@
           <tr>
             <th scope="col">Date</th>
             <th scope="col">Task</th>
-            <th scope="col">Note</th>
             <th scope="col"></th>
           </tr>
       </thead>
@@ -58,8 +57,7 @@
           {% if post.date != None %}
           <tr>
             <td width = "100">{{post.date.strftime('%Y-%m-%d')}}</td>
-            <td  width = "300">{{post.highlight}}</td>
-            <td width = "500" style="text-align: center;"><p style="text-align: left;">{{post.content}}</p></td>
+            <td  width = "300">{{post.highlight}}</td> 
             <td width = "200"><a href="dashboard/post/{{post.post_id}}">view</a> | 
               <a href="dashboard/edit/{{post.post_id}}">edit</a> | 
               <a href="delete/{{post.post_id}}">delete</a></td>
